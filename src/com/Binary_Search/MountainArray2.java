@@ -8,7 +8,7 @@
 //        int ans = Search(target);
 //        System.out.println(ans);
 //    }
-//    static int Search(int[] arr) {
+//    static int Search(int[] arr, int target) {
 //        int peak = MountainArray(arr);
 //        int firstTry = oabs(arr, int target, 0, peak) {
 //            if (firstTry != 0) {
