@@ -10,6 +10,8 @@ public class Ceiling {
 
     //Return the Index: Smallest number >= Target
     static int CeilingVal(int[] arr, int target) {
+
+        //but what if target element is greater than the largest element of the Array
         if (target > arr[arr.length - 1]) {
             return -1;
         }
