@@ -7,6 +7,8 @@ public class Ceiling {
         int ans = CeilingVal(arr, target);
         System.out.println(ans);
     }
+
+    //Return the Index: Smallest number >= Target
     static int CeilingVal(int[] arr, int target) {
         if (target > arr[arr.length - 1]) {
             return -1;
