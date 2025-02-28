@@ -1,4 +1,4 @@
-package com;
+package com.Sorting;
 import java.util.Arrays;
 
 public class BubbleSort {
