@@ -9,7 +9,7 @@ public class LC169 {
         int[] uniqueArr = Arrays.stream(arr).distinct().toArray();
         System.out.println(Arrays.toString(uniqueArr));
     }
-    static int[] count(int[] arr, int[] uniqueArr) {
+    static void count(int[] arr, int[] uniqueArr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == uniqueArr[i]) {
